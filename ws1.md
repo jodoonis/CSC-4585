@@ -1,5 +1,4 @@
 # Workshop #1: Concolic Testing
-___
 
 #### _Code_
 ```sh
