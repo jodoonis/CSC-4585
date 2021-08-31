@@ -37,7 +37,6 @@ ___
 ## _Values_
 | Symbolic              | Path Constraints |
 |-----------------------|------------------|
-| float_var = a         | c == 3b          |
-| int_var = b           | b > c - 50       |
-| temp_var = int(a) = c | a < 75           |
-|                       | b < 25           |
+| float_var = a         | c = Int(a)       |   
+| int_var = b           | c == 3 * b       |
+| temp_var = int(a) = c | b > c - 50       |
