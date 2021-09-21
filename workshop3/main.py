@@ -1,11 +1,11 @@
 import yaml
 
 weaknessVars = ['foreman_repository_base',
-								'foreman_plugin_repository_base',
-								'content_rhel_url',
-								'content_sattools_url',
-								'test_sync_repositories_url_template',
-								'vms_kss_os']
+		'foreman_plugin_repository_base',
+		'content_rhel_url',
+		'content_sattools_url',
+		'test_sync_repositories_url_template',
+		'vms_kss_os']
 weaknessVarsData = []
 playUsageData = []
 lineNum = []
